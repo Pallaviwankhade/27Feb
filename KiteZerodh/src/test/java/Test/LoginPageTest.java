@@ -123,5 +123,11 @@ public class LoginPageTest extends BaseTest
 	public void flushResult()
 	{
 		reports.flush();
-	}
+}
+	@Test
+   public void test()
+   {
+	   System.out.println("hi");
+   }
+	
 }
